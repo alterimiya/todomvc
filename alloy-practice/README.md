@@ -148,11 +148,12 @@ assert notoggleComplete{
 ```
 これを`check FTtoggleComplete for 5`、`check TFtoggleComplete for 5`、`check notoggleComplete for 5`により実行したところ、反例は見つからず、妥当となった。よって、「Todoの完了：Todoが未完了状態であれば完了状態にし、完了状態であれば未完了状態にする。」性質が検証された。
 ## 補足事項
-
 リポジトリ内のファイル構造は以下のようである。
 ```
 ├── alloy-practice/
-  │    ├── model.als
-  │    ├── README.md       --本レポート
-  │    ├── javascript-es6  --使用したOSS
+│    ├── model.als
+│    ├── README.md        --本レポート
+│── examples/
+│    ├── javascript-es6/  --用いたOSS
 ```
+
